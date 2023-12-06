@@ -15,7 +15,6 @@ app.use(express.json());
 app.use("/admin", adminRouter)
 app.use("/user", userRouter)
 
-
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
 mongoose.connect("mongodb+srv://aefgh4805:8Y2JplZHJOkQ3AgV@cluster0.6lsbucv.mongodb.net/", { useNewUrlParser: true, useUnifiedTopology: true });
